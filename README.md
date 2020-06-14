@@ -1,16 +1,6 @@
 # ui_online_chat
 
-A new Flutter project.
+Desaign template ui online chat 
 
-## Getting Started
+![figma online chat](https://user-images.githubusercontent.com/11584190/84589754-035e7380-ae5b-11ea-81f5-d7289ec1aeba.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
