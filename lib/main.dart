@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:ui_online_chat/chatbot.dart';
 
 void main() {
   runApp(MyApp());
@@ -86,6 +87,16 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0,
       ),
       body: _onlinPost(),
+      floatingActionButton: FloatingActionButton(
+        child: new IconButton(icon: new Image.asset("assets/chatbot.jpg"), 
+          tooltip: "Chat Me",
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => ChatbotDialogflow()));
+          },
+        ),
+        onPressed: (){},
+        backgroundColor: Colors.white,
+      ),
       // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
